@@ -1,0 +1,28 @@
+p{
+    color: red;
+    text-decoration: underline; 
+}
+#h23{
+    color:green;
+}
+
+
+.green{
+    color:green;
+    text-align: center;
+} 
+.red{
+    color:red;
+    text-align: center;
+}  
+.gray{
+    color:gray;
+    text-align: right;
+}
+
+.orange{
+    color:orange;
+    text-align: left;
+}
+
+
