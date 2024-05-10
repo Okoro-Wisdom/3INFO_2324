@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    width: 285px;
+  }
+  
+  .grid-item {
+      border: 1px solid red;
+      width: 50px;
+      padding: 10px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      background-color: orange;
+  }
+  .titolo {
+    margin-left:100px;
+  }
