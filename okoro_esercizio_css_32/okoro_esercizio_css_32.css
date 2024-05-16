@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: 
+    300px 300px 300px;
+    grid-template-rows: 
+    repeat(2, 180px);
+    width: 240px;
+    height: 130px;
+    padding: 10px;
+    margin-left:396px;
+  margin-right: auto;
+  margin-top: 200px;
+  }
+  
+  .grid-item {
+      border: 5px solid white;
+      border-radius: 12px;
+      background-color: gray;
+      padding: 10px;
+      text-align: left;
+  }
+  .a {
+      grid-column: 1 / 3;
+  }

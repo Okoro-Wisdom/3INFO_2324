@@ -1,0 +1,40 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 330px;
+height: 100px;
+    width: 850px;
+    display: grid;
+    grid-template-columns: 
+  170px 170px;
+  grid-template-rows: 50px 120px 50px;
+  grid-row-gap: 4px;
+  grid-column-gap: 9px;
+  grid-template-areas: 
+    ". header"
+    "sidebar1 main"
+    "footer footer"; 
+}
+.a {
+    grid-area: header;
+    background-color: lightgray; 
+}
+.b {
+    grid-area: sidebar1;
+    background-color: gray; 
+}
+.d {
+    grid-area: main;
+    background-color: gray; 
+}
+.e {
+    grid-area: footer;
+    background-color: lightgray; 
+}
+.grid-item {
+    border: 5px solid white;
+    border-radius: 12px;
+    padding:13px;
+}
+
